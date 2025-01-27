@@ -1,0 +1,58 @@
+{
+  "AboutMe": {
+    "title": "About Me",
+    "subtitle": "Hi, my name is",
+    "id": "about-me",
+    "paragraph": "I am {age} years old. In my free time, I am a big fan of the football team San Martín de Tucumán. I share my home with four adorable pets: two cats named Sombra and Jedi, and two dogs named Oslo and Coca. I am also a dedicated professional committed to continuous learning and constant improvement, always seeking new challenges that allow me to apply and expand my knowledge in emerging technologies and development practices. <br></br> Currently, I am excited to explore <color>new opportunities</color> that challenge me and allow me to continue growing as a professional. I am particularly interested in roles that let me apply my skills in <color>Frontend</color>, <color>Backend</color>, or <color>Fullstack</color> development and work on innovative projects. If you have an opportunity that you think might fit my profile, I would love to hear from you. Please feel free to contact me! <br></br>"
+  },
+  "Locales": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "Experience": {
+    "title": "Experience",
+    "geotec": {
+      "company": "Geotec",
+      "position": "SSR Fullstack Developer",
+      "descriptions": {
+        "desc1": "Contributed from the early stages of multiple simultaneous projects, ensuring solid adaptation to client requirements by communicating in English. Anticipated potential errors and client adaptations, thereby ensuring smooth and successful project execution.",
+        "desc2": "Refactored existing projects to improve readability and performance, which elevated software quality and provided a superior user experience.",
+        "desc3": "Developed systems using specialized libraries such as a translation system with Google Cloud Translation V2, designed a system for organizing and reorganizing intelligent forms using DndKit, expedited PDF generation with PuppeteerSharp, among other functionalities.",
+        "desc4": "Technologies: React 17+, Redux, Axios, DndKit, .NET Framework, Google Cloud Translation V2, PuppeteerSharp, MongoDB, HTML, TailwindCSS, Git."
+      },
+      "imageUrl": "/images/geotec.jpg",
+      "date": "November 2021 - May 2024"
+    },
+    "technolobiz": {
+      "company": "Technolobiz SAS",
+      "position": "Fullstack Developer",
+      "descriptions": {
+        "desc1": "Implemented RESTful endpoints for communication between frontend and backend.",
+        "desc2": "Optimized search and filtering algorithms to improve application performance.",
+        "desc3": "Performed bug fixes and performance improvements on the backend.",
+        "desc4": "Collaborated in code refactoring to enhance system readability and scalability.",
+        "desc5": "Technologies: Node.js, Express, Angular, Typescript, HTML, Sass, Git."
+      },
+      "imageUrl": "/images/technolobiz.jpg",
+      "date": "October 2021 - January 2022"
+    },
+    "utn": {
+      "company": "Universidad Tecnológica Regional de Tucumán",
+      "position": "University Degree in Programming",
+      "imageUrl": "/images/utn.png",
+      "date": "2019 - 2024",
+      "education": "Education"
+    }
+  },
+  "Skills": {
+    "title": "Skills",
+    "others": "Others",
+    "learning": "Learning"
+  },
+  "NavbarItems": {
+    "aboutMe": "About me",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  }
+}

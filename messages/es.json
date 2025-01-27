@@ -1,0 +1,57 @@
+{
+  "AboutMe": {
+    "title": "Sobre mí",
+    "subtitle": "Hola, me llamo",
+    "paragraph": "Tengo {age} años, en mi tiempo libre, soy un gran fanático del equipo de fútbol San Martín de Tucumán. Comparto mi hogar con cuatro adorables mascotas: dos gatos llamados Sombra y Jedi, y dos perros llamados Oslo y Coca. También soy un profesional comprometido con el aprendizaje continuo y la mejora constante, siempre buscando nuevos desafíos que me permitan aplicar y expandir mis conocimientos en tecnologías emergentes y prácticas de desarrollo. <br></br> Actualmente, estoy emocionado por explorar <color>nuevas oportunidades</color> que me desafíen y me permitan seguir creciendo como profesional. Estoy especialmente interesado en roles que me permitan aplicar mis habilidades tanto en el desarrollo <color>Frontend</color>, como <color>Backend</color> o <color>Fullstack</color> y trabajar en proyectos innovadores. Si tienes una oportunidad que crees que podría encajar con mi perfil, me encantaría saber de vos, ¡no dudes en contactarme! <br></br>"
+  },
+  "Locales": {
+    "en": "Ingles",
+    "es": "Español"
+  },
+  "Experience": {
+    "title": "Experiencia",
+    "geotec": {
+      "company": "Geotec",
+      "position": "SSR Fullstack Developer",
+      "descriptions": {
+        "desc1": "Contribuí desde las etapas iniciales de múltiples proyectos simultáneamente, asegurando una adaptación sólida a los requisitos del cliente comunicándome en Inglés. Anticipé posibles errores y adaptaciones del cliente, asegurando así una ejecución fluida y exitosa del proyecto.",
+        "desc2": "Refactoricé proyectos existentes para mejorar su legibilidad y rendimiento, lo que elevó la calidad del software y brindó una experiencia de usuario superior.",
+        "desc3": "Desarrollé sistemas utilizando librerías especializadas como un sistema de traducción con Google Cloud Translation V2, diseñé un sistema de organización y reorganización de formularios inteligentes mediante DndKit, agilicé la generación de PDFs con PuppeteerSharp, además de otras funcionalidades más.",
+        "desc4": "Tecnologías: React 17+, Redux, Axios, DndKit, .NET Framework, Google Cloud Translation V2, PuppeteerSharp, MongoDB, HTML, TailwindCSS, Git."
+      },
+      "imageUrl": "/images/geotec.jpg",
+      "date": "Noviembre 2021 - Mayo 2024"
+    },
+    "technolobiz": {
+      "company": "Technolobiz SAS",
+      "position": "Fullstack Developer",
+      "descriptions": {
+        "desc1": "Implementé endpoints RESTful para la comunicación entre el frontend y el backend.",
+        "desc2": "Optimicé algoritmos de búsqueda y filtrado para mejorar el rendimiento de la aplicación.",
+        "desc3": "Realicé correcciones de errores y mejoras de rendimiento en el backend.",
+        "desc4": "Colaboré en la refactorización de código para mejorar la legibilidad y la escalabilidad del sistema.",
+        "desc5": "Tecnologías: Node.js, Express, Angular, Typescript, HTML, Sass, Git."
+      },
+      "imageUrl": "/images/technolobiz.jpg",
+      "date": "Octubre 2021 - Enero 2022"
+    },
+    "utn": {
+      "company": "Universidad Tecnológica Regional de Tucumán",
+      "position": "Tecnicatura Universitaria en Programación",
+      "imageUrl": "/images/utn.png",
+      "date": "2019 - 2024",
+      "education": "Educación"
+    }
+  },
+  "Skills": {
+    "title": "Habilidades",
+    "others": "Otros",
+    "learning": "Aprendiendo"
+  },
+  "NavbarItems": {
+    "aboutMe": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  }
+}
