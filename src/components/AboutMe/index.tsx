@@ -14,10 +14,12 @@ const AboutMe: React.FC = () => {
   const paragraph = t('paragraph', { age }).replace(/{age}/g, age.toString())
   const parsedParagraph = parse(paragraph, {
     replace: (domNode) => {
-      if (domNode.name === 'color') {
-        return <ColorSpan>{domNode?.children[0].data}</ColorSpan>
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const domElement: any = domNode as any
+      if (domElement.name === 'color') {
+        return <ColorSpan>{domElement.children[0].data}</ColorSpan>
       }
-      if (domNode.name === 'br') {
+      if (domElement.name === 'br') {
         return <br />
       }
     }
