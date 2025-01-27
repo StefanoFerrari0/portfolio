@@ -19,7 +19,7 @@
         "desc3": "Desarrollé sistemas utilizando librerías especializadas como un sistema de traducción con Google Cloud Translation V2, diseñé un sistema de organización y reorganización de formularios inteligentes mediante DndKit, agilicé la generación de PDFs con PuppeteerSharp, además de otras funcionalidades más.",
         "desc4": "Tecnologías: React 17+, Redux, Axios, DndKit, .NET Framework, Google Cloud Translation V2, PuppeteerSharp, MongoDB, HTML, TailwindCSS, Git."
       },
-      "imageUrl": "/images/geotec.jpg",
+      "imageUrl": "/portfolio/images/geotec.jpg",
       "date": "Noviembre 2021 - Mayo 2024"
     },
     "technolobiz": {
@@ -32,13 +32,13 @@
         "desc4": "Colaboré en la refactorización de código para mejorar la legibilidad y la escalabilidad del sistema.",
         "desc5": "Tecnologías: Node.js, Express, Angular, Typescript, HTML, Sass, Git."
       },
-      "imageUrl": "/images/technolobiz.jpg",
+      "imageUrl": "/portfolio/images/technolobiz.jpg",
       "date": "Octubre 2021 - Enero 2022"
     },
     "utn": {
       "company": "Universidad Tecnológica Regional de Tucumán",
       "position": "Tecnicatura Universitaria en Programación",
-      "imageUrl": "/images/utn.png",
+      "imageUrl": "/portfolio/images/utn.png",
       "date": "2019 - 2024",
       "education": "Educación"
     }

@@ -22,8 +22,8 @@ i18n
       es: spanishMessages
     },
     detection: {
-      order: ['querystring', 'localStorage', 'navigator'], // Prioridad de detección
-      caches: ['localStorage'] // Guarda el idioma detectado
+      order: ['querystring', 'localStorage', 'navigator'],
+      caches: ['localStorage']
     },
     fallbackLng: 'en',
     debug: true,

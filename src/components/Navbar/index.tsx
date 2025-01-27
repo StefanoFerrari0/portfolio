@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router'
 import { NavbarLinksProps, NavbarMobileProps } from '@/interfaces/props.d'
 import { formatDoubleDigitNumber, formatNameForId } from '@/utils/helper'
 import LanguageSwitcher from '../LanguageSwitcher'
@@ -13,13 +12,31 @@ const NavbarLinks: React.FC<NavbarLinksProps> = ({ isMobile = false }) => {
     t('skills'),
     t('contact')
   ]
+
+  const handleSmoothScroll = (id: string) => {
+    const element = document.querySelector(id)
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   return (
     <>
       {navbarItems.map((name, index) => {
         const number = index + 1
         const id = `#${formatNameForId(name)}`
         return (
-          <Link key={name} to={id}>
+          <a
+            key={name}
+            href={id}
+            onClick={(e) => {
+              e.preventDefault()
+              handleSmoothScroll(id)
+            }}
+          >
             <li
               className={`${
                 isMobile ? 'block px-3 py-2 text-sm lg:text-sm' : 'text-sm'
@@ -34,7 +51,7 @@ const NavbarLinks: React.FC<NavbarLinksProps> = ({ isMobile = false }) => {
               </span>
               {name}
             </li>
-          </Link>
+          </a>
         )
       })}
     </>
