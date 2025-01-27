@@ -12,7 +12,7 @@ function App() {
         <I18nextProvider i18n={i18n}>
           <Navbar />
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </I18nextProvider>
       </BrowserRouter>
