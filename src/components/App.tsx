@@ -8,7 +8,7 @@ import { Navbar } from './Navbar'
 function App() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <I18nextProvider i18n={i18n}>
           <Navbar />
           <Routes>
